@@ -1,0 +1,9 @@
+Este proyecto analiza la relación entre los recursos sanitarios y los datos socio-demográficos en los condados de Estados Unidos mediante modelos de regresión. Se define como variable objetivo la prevalencia a la diabetes y se estudia cómo las demás variables influyen en ella.
+
+Se realiza un análisis exploratorio de datos (EDA) para seleccionar las variables más relevantes y dividir el conjunto en train y test. Luego, se aplica la regresión lineal y el modelo Lasso, analizando la evolución del coeficiente R² al modificar su hiperparámetro y representando gráficamente los resultados.
+
+Si la regresión Lasso no ofrece buenos resultados, se optimiza con técnicas de mejora para incrementar la precisión. Finalmente, se guardan los modelos para su uso en futuros análisis.
+
+Los datos para resolver el problema se pueden encontrar en: https://raw.githubusercontent.com/4GeeksAcademy/regularized-linear-regression-project-tutorial/main/demographic_health_data.csv 
+
+La solución se ecuentra en la carpeta SRC en el jupiter notebook llamado "explore.ipynb".
